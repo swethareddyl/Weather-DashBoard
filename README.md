@@ -21,7 +21,7 @@ As a traveler, I want to see the weather outlook for multiple cities so that I c
 
 ## Mock-Up
 The following image shows the web application's appearance and functionality:
-![WeatherApp](./assets/WeatherApp.png)
+![WeatherApp](https://github.com/swethareddyl/Weather-DashBoard/blob/main/assets/WeatherApp.PNG)
 
 ## URL of the website 
 https://swethareddyl.github.io/Weather-DashBoard/ 
