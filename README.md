@@ -2,36 +2,30 @@
 
 ## Task
 
-Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+Build a weather dashboard using third-party APIs to access their data with specific parameters in URL that will run in the browser and feature dynamically updated HTML and CSS.
 
-Used the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Read through the documentation for setup and usage instructions.  Used `localStorage` to store any persistent data.
+Use the [OpenWeather API](https://api.openweathermap.org/data/2.5/weather) and (https://api.openweathermap.org/data/2.5/forecast) to retrieve weather data for cities. Read through the documentation for setup and usage instructions.  Used `localStorage` to store any persistent data.
 
 ## User Story
-
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+As a traveler, I want to see the weather outlook for multiple cities so that I can plan a trip accordingly
 
 ## Acceptance Criteria
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
+Given a weather dashboard with form inputs, when I search for a city
+Then I am presented with current and future conditions for that city and that city is added to the search history
+When I view current weather conditions for that city
+Then I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
+When I view the UV index
+Then I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
+When I view future weather conditions for that city
+Then I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 
 ## Mock-Up
-
 The following image shows the web application's appearance and functionality:
+![Weather App](./Assets/WeatherApp.png)
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+## URL of the website 
+https://swethareddyl.github.io/Weather-DashBoard/ 
+
+## Github link
+https://github.com/swethareddyl/Weather-DashBoard.git 
